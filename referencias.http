@@ -1,3 +1,13 @@
 ### Teste de Health Check
 
 GET http://localhost:3000/
+
+###
+POST http://localhost:3000/chamados
+Content-Type: application/json
+
+{
+    "titulo": "Erro no sistema",
+    "descricao": "Tela travando",
+    "id_usuario": 1
+}
